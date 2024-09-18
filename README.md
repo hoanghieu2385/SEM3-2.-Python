@@ -6,3 +6,12 @@ Python basic:
 Tính các phép toán: cộng, trừ, nhân, chia đơn giản với menu
 
 exam: array list và 1 vài thứ liên quan
+
+B2: 
+- List ( "[ ]"), tuple ( "( )")
+- dist
+
+Giống:
+- lưu dữ liệu
+Khác:
+- List có thể insert dữ liệu còn tuple không thể
