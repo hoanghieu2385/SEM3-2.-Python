@@ -4,43 +4,6 @@ os.system("cls")
 
 from tabulate import tabulate
 
-# def exam_1():
-#     person = [
-#         {
-#         "name": "Nguyen Van A",
-#         "age": 20,
-#         "address": "Ha Noi"
-#     },
-#     {
-#         "name": "Nguyen Van B",
-#         "age": 15,
-#         "address": "Ha Dong"
-#     }
-#     ]
-#     print(tabulate(person, headers="keys", tablefmt="grid"))
-
-#     print("\nImport new person")
-#     name = input("Name: ")    
-#     age = int(input("Age: ") )   
-#     address= input("Address: ")
-
-#     new_person = {
-#         "name": name,
-#         "age": age,
-#         "address": address,
-#     }
-    
-#     person.append(new_person)
-#     print()
-#     print(tabulate(person, headers="keys", tablefmt="grid"))
-    
-#     # Sort the list of dictionaries by age in ascending order
-#     sorted_person = sorted(person, key=lambda k: k['age'])
-
-#     print("\nSorted list of dictionaries by age:")
-#     print(tabulate(sorted_person, headers="keys", tablefmt="grid"))
-    
-
 def exam_1():
     person = [
         {
@@ -117,4 +80,4 @@ def exam_2():
     print(tabulate(students, headers="keys", tablefmt="grid"))
     
 if __name__ == "__main__":
-    exam_2()
+    exam_1()
