@@ -12,14 +12,18 @@ def exam_1():
         "address": "Ha Noi"
     },
     {
-        "name": "Nguyen Van B",
-        "age": 15,
+        "name": "Le Van C",
+        "age": 45,
         "address": "Ha Dong"
     }
     ]
     print("Original list of dictionaries:")
-    for p in person:
-        print(p)
+    # No Table
+    # for p in person:
+    #     print(p)
+    
+    # Table
+    print(tabulate(person, headers="keys", tablefmt="grid"))
 
     print("\nImport new person")
     name = input("Name: ")
@@ -38,8 +42,13 @@ def exam_1():
     sorted_person = sorted(person, key=lambda k: k['age'])
 
     print("\nSorted list of dictionaries by age:")
-    for p in sorted_person:
-        print(p)
+    # No Table
+    # for p in sorted_person:
+    #     print(p)
+    
+    # Table
+    print(tabulate(sorted_person, headers="keys", tablefmt="grid"))
+        
 
 def calculate_score(score_1,score_2):
     final_score = 0.3 * score_1 + 0.7 * score_2
@@ -65,7 +74,7 @@ def exam_2():
         },
         {
             "STT": 2,
-            "Name": "Nguyen Huu B",
+            "Name": "Le Van C",
             "Class": "T2308M",
             "Score 1": 7,
             "Score 2": 8
