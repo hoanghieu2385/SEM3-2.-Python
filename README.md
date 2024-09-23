@@ -20,4 +20,20 @@ B4:
 Lambda: cú pháp: lambda tham_so: bieu_thuc
 
 Kết nối tới mysql:
-add thêm thư viện: pip install mysql-connector-python
+add thêm thư viện:
+pip install mysql-connector-python
+
+- SELECT, INSERT, UPDATE, DELETE
+- JOIN (LEFT JOIN, RIGHT JOIN, INNER JOIN, OUTER JOIN)
+- UNION / UNION ALL
+- WHERE
+- HAVING
+- GROUP BY
+
+Transactions
+
+========= ADD INFO ============ !!!!!!!!!!!
+
+
+Deadlock
+========= ADD INFO ============ !!!!!!!!!!!
