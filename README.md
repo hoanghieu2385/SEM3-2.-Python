@@ -55,4 +55,9 @@ Deadlock
 
 ---------------------------------------------
 
-B5: 
+B5: Lam bai tap
+
+B6:
+join (INNER JOIN, LEFT JOIN, RIGHT JOIN, ... 1 vai kieu nua)
+
+stored procedure (Tạo 1 cái api để clean code, gọi nhiều lần? )
