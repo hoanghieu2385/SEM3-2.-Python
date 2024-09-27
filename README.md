@@ -60,4 +60,8 @@ B5: Lam bai tap
 B6:
 join (INNER JOIN, LEFT JOIN, RIGHT JOIN, ... 1 vai kieu nua)
 
+ví dụ: select * from   A   LEFT JOIN    B   ON   A.studentID = B.studentID
+
+LEFT JOIN: Lấy tất cả các bản ghi từ bảng A, cộng với các bản ghi phù hợp từ bảng B. hoặc null trong trường hợp không có giá trị phù hợp
+
 stored procedure (Tạo 1 cái api để clean code, gọi nhiều lần? )
