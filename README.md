@@ -1,6 +1,6 @@
 # SEM3-3.-Python
 
-B1:
+Buổi 1:
 Python basic:
 
 Tính các phép toán: cộng, trừ, nhân, chia đơn giản với menu
@@ -9,7 +9,7 @@ exam: array list và 1 vài thứ liên quan
 
 ---------------------------------------------
 
-B2: 
+Buổi 2: 
 - List ( "[ ]"), tuple ( "( )")
 - dist
 
@@ -21,7 +21,7 @@ Khác:
 
 ---------------------------------------------
 
-B4:
+Buổi 4:
 Lambda: cú pháp: lambda tham_so: bieu_thuc
 
 Kết nối tới mysql:
@@ -55,9 +55,12 @@ Deadlock
 
 ---------------------------------------------
 
-B5: Lam bai tap
+Buổi 5: Lam bai tap
 
-B6:
+---------------------------------------------
+
+Buổi 6: Hoàn thiện nốt bài tập buổi 5
+
 join (INNER JOIN, LEFT JOIN, RIGHT JOIN, ... 1 vai kieu nua)
 
 ví dụ: select * from   A   LEFT JOIN    B   ON   A.studentID = B.studentID
@@ -65,3 +68,19 @@ ví dụ: select * from   A   LEFT JOIN    B   ON   A.studentID = B.studentID
 LEFT JOIN: Lấy tất cả các bản ghi từ bảng A, cộng với các bản ghi phù hợp từ bảng B. hoặc null trong trường hợp không có giá trị phù hợp
 
 stored procedure (Tạo 1 cái api để clean code, gọi nhiều lần? )
+
+---------------------------------------------
+
+Buổi 7: 
+Dạy lại 1 chút về OOP: Object-oriented programming (lập trình hướng đối tượng)
+
+
+
+
+---------------------------------------------
+
+
+---------------------------------------------
+
+
+---------------------------------------------
