@@ -81,7 +81,6 @@ Buổi 8: read file json
 lệnh cần thiết: pip install pydantic
 
 
-
 ---------------------------------------------
 
 
