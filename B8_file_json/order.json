@@ -1,0 +1,15 @@
+{
+    "orderID": "854",
+    "customer": {
+        "name": "Hieu",
+        "email": "hieu_demo@gmail.com",
+        "phone": "+84 127654789",
+        "address": {
+            "street": "Ton That Thuyet",
+            "city": "Ha Noi",
+            "state": "HN",
+            "postalCode": "4353",
+            "country": "VIETNAM"
+        }
+    }
+}

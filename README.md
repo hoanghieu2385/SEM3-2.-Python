@@ -75,9 +75,11 @@ Buổi 7:
 Dạy lại 1 chút về OOP: Object-oriented programming (lập trình hướng đối tượng)
 
 
-
-
 ---------------------------------------------
+Buổi 8: read file json
+
+lệnh cần thiết: pip install pydantic
+
 
 
 ---------------------------------------------
