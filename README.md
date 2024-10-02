@@ -22,9 +22,9 @@ Khác:
 ---------------------------------------------
 
 Buổi 4:
-Lambda: cú pháp: lambda tham_so: bieu_thuc
-
-Kết nối tới mysql:
+ FREE ata grid     (Mất phí): cú pháp: lambda tham_so: bieu_thuc  
+ SMMS             (FR EE)
+ KSt  nối tới mysql:
 - add thêm thư viện: => pip install mysql-connector-python
 
 Cách phần cần tìm hiểu thêm:
@@ -111,5 +111,9 @@ B9: Tổng kết, nhìn lại những gì đẫ học:
     => Dùng stored procedure
 
 ---------------------------------------------
-Chuẩn bị cho môn tiếp theo: asp .net core (Môn quan trọng)
-
+Chuẩn bị cho môn tiếp theo: asp .net core theo mô hình MVC (Môn quan trọng)
++ cài đặt visual studi 
++ SQL server:
+    + Azure data studio --------------------- ( FREE )
+    + Data grid ------------------------------( Mất phí 💲 )
+    + SSMS (SQL Server Management Studio) --- ( FREE )

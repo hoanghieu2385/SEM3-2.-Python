@@ -1,0 +1,66 @@
+{
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "files.autoSave": "afterDelay",
+    "indentRainbow.lightIndicatorStyleLineWidth": 6,
+    "indentRainbow.indicatorStyle": "light",
+    "workbench.colorTheme": "Monokai",
+    "workbench.iconTheme": "vscode-icons",
+    "git.confirmSync": false,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "git.enableSmartCommit": true,
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.mouseWheelZoom": true,
+    "npm.keybindingsChangedWarningShown": true,
+    "explorer.confirmDelete": false,
+    "php.suggest.basic": true,
+    "php.validate.enable": true,
+    "php.validate.executablePath": "",
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "gitlens.views.branches.files.layout": "tree",
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command",
+        "stash-push:command",
+        "switch:command"
+    ],
+    "code-runner.runInTerminal": true,
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "prettier.useTabs": true,
+    "prettier.printWidth": 120,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "all",
+    "cSpell.language": "en,vi",
+    "workbench.colorCustomizations": {
+        "terminal.background":"#1D2021",
+        "terminal.foreground":"#9162c7",
+        "terminalCursor.background":"#A89984",
+        "terminalCursor.foreground":"#A89984",
+        "terminal.ansiBlack":"#1D2021",
+        "terminal.ansiBlue":"#0D6678",
+        "terminal.ansiBrightBlack":"#665C54",
+        "terminal.ansiBrightBlue":"#0D6678",
+        "terminal.ansiBrightCyan":"#8BA59B",
+        "terminal.ansiBrightGreen":"#95C085",
+        "terminal.ansiBrightMagenta":"#8F4673",
+        "terminal.ansiBrightRed":"#FB543F",
+        "terminal.ansiBrightWhite":"#FDF4C1",
+        "terminal.ansiBrightYellow":"#FAC03B",
+        "terminal.ansiCyan":"#8BA59B",
+        "terminal.ansiGreen":"#95C085",
+        "terminal.ansiMagenta":"#8F4673",
+        "terminal.ansiRed":"#FB543F",
+        "terminal.ansiWhite":"#A89984",
+        "terminal.ansiYellow":"#FAC03B"
+    },
+}
