@@ -82,6 +82,34 @@ lệnh cần thiết: pip install pydantic
 
 
 ---------------------------------------------
+B9: Tổng kết, nhìn lại những gì đẫ học:
 
+1. Basic: 
+- Loop ( for, while, if else, match - case, ...)
+- List, dictionary
+- tuple
+- Iterator (lấy đc phần tử tiếp theo, gần giống list)
+- Lambda ( --- Cú pháp kiểu: ( ) => { }   ---)
+
+2. Database
+- MongoDB
+- MySQL
+
+3. Lập trình hướng đối tượng ( OOP: Object-oriented programming ) 
+
+4. Bài tập
+- Bài 1: 
+    + Đọc file student.json
+    + Đưa vào list
+    + list( filter( lambda() ) )
+- Bài 2:
+    + Kết nối database
+    + Insert, query
+- Bài 3.2
+    + cách 1:
+    + cách 2: case ... when trong sql 
+    => Dùng stored procedure
 
 ---------------------------------------------
+Chuẩn bị cho môn tiếp theo: asp .net core (Môn quan trọng)
+
