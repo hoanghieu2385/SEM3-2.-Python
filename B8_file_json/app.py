@@ -6,6 +6,36 @@ import json
 from os import path
 from order import Customer, Order, Address
 
+from pymongo import MongoClient
+
+# MongoDB connection
+connection_string = "mongodb://localhost:27017/"
+try:
+    client = MongoClient(connection_string)
+    database_name = "test"
+    collection_name = "json_demo"
+
+    db = client[database_name]
+    collection = db[collection_name]
+
+    if collection is None:
+        print("Cannot connect")
+    else:
+        print("Connected successfully")
+except Exception as e:
+    print("Error connecting to MongoDB:", e)
+    
+def insert_db(path):
+    if path is not None:
+        with open(path) as file:
+            file_data = json.load(file)
+    if isinstance(file_data, list):
+        collection.insert_many(file_data)
+        print("Insert successfully")
+    else:
+        collection.insert_one(file_data)
+        print("Insert successfully")
+    
 def readFileJson(path):
     if path is not None:
         with open(path, 'r') as content:
@@ -49,4 +79,6 @@ if __name__ == '__main__':
     # writeFileJson(order, path)
     # readFileJson(path)
     
-    convertJsonToObject(path)
+    # convertJsonToObject(path)
+    
+    insert_db(path)
